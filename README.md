@@ -12,24 +12,22 @@ To Setup, open a clean bash terminal:
 
 https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
-After installation, type `conda env list`, which should show that you are in the "base" (deafult) environment.
-
 (B) Create a new conda environment by typing: 
 
-'conda env create -f environment.yml'
+`conda env create -f environment.yml`
 
 This step can take time to install pytao, bmad, and other packages.
 
-The new environment is called 'lcls-live'. 
+The new environment is called "lcls-live". 
 
-(C) Activate the environment by typing 'source activate lcls-live'
+(C) Activate the environment by typing `source activate lcls-live`.
 
 To check that this has worked, type `conda env list`.
 
 (D) Install a new kernel to use Jupyter notebooks by typing:
-'python -m ipykernel install --user --name lcls-live --display-name Lcls-live'
+`python -m ipykernel install --user --name lcls-live --display-name Lcls-live`
 
-(E) Open jupyter lab by typing 'jupyter lab'.
+(E) Open jupyter lab by typing `jupyter lab`.
 
 This will open a browser tab which runs jupyter. 
 

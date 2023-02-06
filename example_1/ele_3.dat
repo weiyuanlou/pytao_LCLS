@@ -1,0 +1,57 @@
+Element # 3
+Element Name: B1
+Key: Sbend
+Sub Key: SBend
+S_start, S:      1.000000,      1.200000
+Ref_time:  4.008005E-09
+
+Attribute values [Only non-zero values shown]:
+    1  L                           =  2.0000000E-01 m
+    6  G                           =  8.7266463E-01 1/m      43  B_FIELD                     =  2.9070929E-02 T
+    8  RHO                         =  1.1459156E+00 m
+   10  FRINGE_TYPE                 =  Basic_Bend (7)         11  FRINGE_AT                   =  Both_Ends (3)
+   13  SPIN_FRINGE_ON              =  T (1)
+   14  EXACT_MULTIPOLES            =  Off (1)
+   17  STATIC_LINEAR_MAP           =  F (0)
+   19  E1                          =  0.0000000E+00 rad      20  E2                          =  1.7453293E-01 rad
+   30  L_CHORD                     =  1.9974625E-01 m        29  L_SAGITTA                   =  4.3605548E-03 m
+   33  ANGLE                       =  1.7453293E-01 rad          ANGLE                       =  1.0000000E+01 deg
+   47  PTC_CANONICAL_COORDS        =  T (1)
+   49  PTC_FIELD_GEOMETRY          =  Sector (1)             48  PTC_FRINGE_GEOMETRY         =  x_invariant (1)
+   50  DELTA_REF_TIME              =  6.6800090E-10 sec
+   53  P0C                         =  9.9869355E+06 eV           BETA                        =  9.9869355E-01
+   54  E_TOT                       =  1.0000000E+07 eV           GAMMA                       =  1.9569512E+01
+   65  INTEGRATOR_ORDER            = 4
+   67  DS_STEP                     =  1.8181818E-02 m        66  NUM_STEPS                   = 11
+   68  CSR_DS_STEP                 =  0.0000000E+00 m
+
+       TRACKING_METHOD              =  Bmad_Standard             APERTURE_AT                =  Exit_End
+       MAT6_CALC_METHOD             =  Auto                      APERTURE_TYPE              =  Rectangular
+       SPIN_TRACKING_METHOD         =  Tracking                  OFFSET_MOVES_APERTURE      =  F
+       PTC_INTEGRATION_TYPE         =  Matrix_Kick               SYMPLECTIFY                =  F
+       CSR_METHOD                   =  Off                       FIELD_MASTER               =  F
+       SPACE_CHARGE_METHOD          =  Off                       LONGITUDINAL ORIENTATION   =       1
+       FIELD_CALC                   =  Bmad_Standard
+
+Slave_status: Minor_Slave
+Controller Lord(s):
+   Index   Name                            Attribute           Lord_Type            Expression
+      34   O_ANGLE                         G                   Overlay              angle_deg*pi/180/0.2
+      34   O_ANGLE                         E2                  Overlay              angle_deg*pi/180
+
+Lord_status:  Not_a_Lord
+
+Twiss at end of element:
+                          A              B            Cbar                        C_mat
+  Beta (m)         5.12950515     5.28800000  |   0.00000000   0.00000000      0.00000000   0.00000000
+  Alpha           -0.24041117     0.57368740  |   0.00000000   0.00000000      0.00000000   0.00000000
+  Gamma (1/m)      0.20621824     0.25134592  |   Gamma_c =   1.00000000       Mode_Flip = F
+  Phi (rad)        0.23593372     0.23554498            X              Y              Z
+  Eta (m)          0.01740903     0.00000000     0.01740903     0.00000000     0.00211959
+  Etap             0.17632698     0.00000000     0.17632698     0.00000000     0.00000000
+
+Orbit:  Positron   State: Alive
+         Position[mm] Momentum[mrad]        Spin   |
+  X:       0.00000000     0.00000000               | t_particle [sec]:        4.00800541E-09  E_tot: 1.00000E+07
+  Y:       0.00000000     0.00000000               | t_part-t_ref [sec]:      0.00000000E+00  PC:    9.98694E+06
+  Z:       0.00000000     0.00000000               | (t_ref-t_part)*Vel [m]:  0.00000000E+00  Beta:  0.998693547
