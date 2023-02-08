@@ -1,18 +1,22 @@
 # pytao_LCLS
-This repository includes jupyter notebooks which show how to..
+This repository has...
 
-(1) Set up and apply pytao on a simple Bmad lattice  
-(2) Run pytao on a LCLS2 lattice
-(3) Use Bmad live-model to interface LCLS2 machine  
+---> Instructions to setup and run basic Tao and Pytao commands  
+---> Run Tao optimization and beam tracking using a simple Bmad lattice 
+---> Run pytao on a LCLS2 lattice and apply bmad-live-model to interface with the LCLS2 machine 
+---> Datamap example for data conversion between LCLS2 and bmad-live-model
+---> Optics matching example for LCLS2
 
+The user must know basic Python and bash commands.
+All example notebooks are run on jupyter.
 
-To Setup, open a clean bash terminal:
+To setup, clone this repository first, then:
 
 (A) Install `conda` from 
 
 https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
-(B) Create a new conda environment by typing: 
+(B) Open a new terminal. Then create a new conda environment by typing: 
 
 `conda env create -f environment.yml`
 
