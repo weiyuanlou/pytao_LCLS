@@ -1,6 +1,6 @@
 Obtain lcls-lattice from 'https://github.com/slaclab/lcls-lattice'
 
-$\rightarrow$If on personal computer, you need to gain permission (from Shankar Murali as of Jan 2023 ) to clone the repository :
+$\rightarrow$ If on personal computer, you need to gain permission (from Shankar Murali as of Jan 2023 ) to clone the repository :
 
 `git clone https://github.com/slaclab/lcls-lattice.git`
 
