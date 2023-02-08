@@ -1,15 +1,15 @@
 # pytao_LCLS
 This repository has...
 
-$\rightarrow$ Instructions to setup and run basic Tao and Pytao commands  
+$\rightarrow$ Instructions to setup and run basic Tao and Pytao commands.
 
----> Run Tao optimization and beam tracking using a simple Bmad lattice 
+$\rightarrow$ Run basic Tao optimization and beam tracking using a simple Bmad lattice.
 
----> Run pytao on a LCLS2 lattice and apply bmad-live-model to interface with the LCLS2 machine 
+$\rightarrow$ Run pytao on a LCLS2 lattice.
 
----> Datamap example for data conversion between LCLS2 and bmad-live-model
+$\rightarrow$ Apply bmad-live-model to interface with the LCLS2 machine via datamaps.
 
----> Optics matching example for LCLS2
+$\rightarrow$ Optics compensation example for LCLS2.
 
 The user must know basic Python and bash commands.
 All example notebooks are run on jupyter.
