@@ -3,15 +3,16 @@ This repository has...
 
 $\rightarrow$ Instructions to setup and run basic Tao and Pytao commands.
 
-$\rightarrow$ Run basic Tao optimization and beam tracking using a simple Bmad lattice.
+$\rightarrow$ Basic Tao optimization and beam tracking examples using a simple Bmad lattice.
 
-$\rightarrow$ Run pytao on a LCLS2 lattice.
+$\rightarrow$ Example to run pytao on a LCLS2 lattice.
 
-$\rightarrow$ Apply bmad-live-model to interface with the LCLS2 machine via datamaps.
+$\rightarrow$ Example of bmad-live-model which interfaces with the LCLS2 machine via datamaps.
 
 $\rightarrow$ Optics compensation example for LCLS2.
 
 ====================================================
+
 The user must know basic Python and bash commands.
 
 All example notebooks are run on jupyter with a kernel called `lcls-live`.
