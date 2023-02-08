@@ -11,8 +11,10 @@ $\rightarrow$ Apply bmad-live-model to interface with the LCLS2 machine via data
 
 $\rightarrow$ Optics compensation example for LCLS2.
 
+====================================================
 The user must know basic Python and bash commands.
-All example notebooks are run on jupyter.
+
+All example notebooks are run on jupyter with a kernel called `lcls-live`.
 
 To setup, clone this repository first, then:
 
