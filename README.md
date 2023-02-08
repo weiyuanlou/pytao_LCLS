@@ -1,7 +1,7 @@
 # pytao_LCLS
 This repository has...
 
-$\dot$ Instructions to setup and run basic Tao and Pytao commands  
+$\rightarrow$ Instructions to setup and run basic Tao and Pytao commands  
 
 ---> Run Tao optimization and beam tracking using a simple Bmad lattice 
 
